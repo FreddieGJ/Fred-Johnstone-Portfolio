@@ -87,6 +87,9 @@ h3{
     }
 }
 /* button*/
+#disclaimer{
+    text-align:center;
+}
 .button{
     text-align:center;
     margin:auto;
