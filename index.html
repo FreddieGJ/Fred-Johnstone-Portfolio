@@ -6,7 +6,7 @@
     <link href = "StyleSheet.css" rel = "stylesheet">
     <script src = "https://code.jquery.com/jquery-3.6.1.js"></script>
 <script>
-   $(document).ready(function (){
+ $(document).ready(function (){
 			$("button").click(function() {
 				$(".examples").toggle();
 			});
@@ -16,9 +16,9 @@
 </script>
 </head>
 <body>
+    <div class = "border">
+
        <!--The banner area of the Webpage. Holding both the main picture and the main title.-->
-       
-    
 <div class = "banner">
     <div>
     <h1 class = "title">Fred Johnstone</h1><p>
@@ -35,14 +35,14 @@
 <!--A small section about me-->
 <div class = "about-me">
     <h2 id = "about-me-title">About me</h2><p class = about-me-text>
-        My name is Fred Johnstone and welcome to my portfolio. 
+        My name is Fred Johnstone and welcome to my portfolio. <br>
         My journey began half way through the first Lockdown of 2020 in Cambridge UK 
         when I decided (like many others I’m sure) to try making video games. 
-        This idea eventually “fizzeled” out as it were but my interest was peaked with coding.
+        This idea eventually “fizzeled” out but my interest was peaked with coding.
         <br>
         My main strength is working with people, and I try to channel that into the websites I make,
         making them readable, and engaging for targeted audiences. I also firmly belive that communication 
-        is key to a good working team and I strive to bring that mindset to evey project that I participate in.
+        is key to a good working team and I strive to bring that mindset to evey project I participate in.
 
     </p>
 <!--The area that is innitially hidden from view and contains brief expplinations of the sites that I've built-->
@@ -51,46 +51,49 @@
 <button class = "button">Click this to see some examples of my work</button>
 </div>
 <div class = "examples">
+    <div id = "disclaimer">Please note that these websites are purely for demonstration purposes</div>
     <div class = "show-box">
         <img src="images/Casita/Casita.jpg" class = "show-box-pic"/>
-        <p class="box-text">
+        <div class="box-text" id = "casita-text">
             This is a website I wrote called Casita.<br>
             It serves as both an advertisement and a booking site for a fictional resort.<br>
-            <a class = "site-link" href = "website-examples/Casita/index.html">Casita</a>
-        </p>
+            <a class = "site-link" href = "website-examples/Casita/index.html">Visit Casita</a>
+        </div>
     </div>
-    <div class = "show-box">
-        <img src="images/Bistro/Bistro.jpg" class = "show-box-pic"/>
-        <p class="box-text">
+    <div class = "show-box2">
+        <img src="images/Bistro/Bistro.jpg" class = "show-box-pic2"/>
+        <div class="box-text2" id = "bistro-text">
             This is a website I wrote called Lighthouse Bistro.<br>
             It is a fictional website for a bistro located in a lighthouse.<br>
-            <a class = "site-link" href = "website-examples/My-Bistro/index.html">Bistro</a>
-        </p>
+            <a class = "site-link" href = "website-examples/My-Bistro/index.html">Visit Bistro</a>
+        </div>
     </div>
     <div class = "show-box">
         <img src="images/mini-painting/Mini-painting.jpg" class = "show-box-pic"/>
-        <p class="box-text">
+        <div class="box-text" id = "minis-text">
             This is a website I wrote called Mini Monsters.<br>
             Because I wanted to practice how to use flex-box, I wrote this 
             fictional website for a company that paints minitures for hobbyists.<br>
-            <a class = "site-link" href = "website-examples/mini-painting-site/index.html">Mini Monsters</a>
-        </p>
+            <a class = "site-link" href = "website-examples/mini-painting-site/index.html">Visit Mini Monsters</a>
+        </div>
     </div>
-    <div class = "show-box">
-        <img src="images/Chloe/Chloe-site.jpg" class = "show-box-pic"/>
-        <p class="box-text">
+    <div class = "show-box2">
+        <img src="images/Chloe/Chloe-site.jpg" class = "show-box-pic2"/>
+        <div class="box-text2" id = "chloe-text">
             This is a website I wrote called Cat Appreciation Team (C.A.T).<br>
-            To practice making websites responsive with CSS I built this website for my cat Chloe.<br>
-            <a class = "site-link" href = "website-examples/Chloe/index.html">Cat Appreciation Team</a>
-        </p>
+            To practice making websites responsive with CSS. I built this website for my cat Chloe.<br>
+            <a class = "site-link" href = "website-examples/Chloe/index.html">Visit Cat Appreciation Team</a>
+        </div>
     </div>
     
 </div>
+
 <!--A link to my contact page-->
 <footer>
     <div class = "contact-details">
         <h2 id = "contact-link"><a href = "contact.html">Click here if you're interested in contacting me</a></h2>
     </div>
 </footer>
+</div>
 </body>
 </html>
