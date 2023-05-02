@@ -1,5 +1,4 @@
 # Fred-Johnstone-Portfolio
-My portfolio that shows off my skills so far
 Hello and welcome to my README for my portfolio.
 The purpose of this website is to show you what I am capable of. 
 It is an ongoing project and I will be adding to it as I progress through my front-end Web developer journey.
